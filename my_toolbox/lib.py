@@ -47,6 +47,12 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+def try_me():
+    print("jojibou is brillante")
+
+def brieuc_shut_up():
+    print("Brieuc stop making calls with the teacher")
+
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
